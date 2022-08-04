@@ -1,7 +1,6 @@
 ﻿
 using System;
 
-
 string checkInput(string name)
 {
     int num;
@@ -23,12 +22,10 @@ string checkInput(string name)
 
     return str;
 }
- 
 
-    int x = Convert.ToInt32(checkInput("x"));
-    int y = Convert.ToInt32(checkInput("y"));
-    
-    int temp = y;
+int x = Convert.ToInt32(checkInput("x"));
+int y = Convert.ToInt32(checkInput("y"));    
+int temp = y;
 
 if (x > y)
 {
